@@ -1,0 +1,2649 @@
+@charset "UTF-8";
+
+/*--------------------*/
+
+/*  *{outline:1px solid red!important}   */
+
+//IBM 3270
+@font-face {
+    font-family: "IBM3270";
+    src: url("../fonts/ibm3270/3270-Regular.ttf") format("truetype"), url("../fonts/ibm3270/3270-Regular.otf") format("OpenTypef");
+    font-weight: 400;
+}
+
+
+        //INTER
+        @font-face {
+            font-family: "Inter";
+            src: url("../fonts/inter/Inter-SemiBold.otf") format("OpenType"), url("../fonts/inter/Inter-SemiBold.ttf") format("truetype");
+            font-weight: 500;
+        }
+
+        @font-face {
+            font-family: "Inter";
+            src: url("../fonts/inter/Inter-Regular.otf") format("OpenType"), url("../fonts/inter/Inter-Regular.ttf") format("truetype");
+            font-weight: 400;
+        }
+
+    @font-face {
+        font-family: "Inter-light";
+        src: url("../fonts/inter/Inter-Light.otf") format("OpenType"), url("../fonts/inter/Inter-Light.ttf") format("truetype");
+        font-weight: 300;
+    }
+
+ body {
+    background-color: rgb(68, 68, 68);
+}  
+
+//MAIN COLORS
+:root {
+    --custom-red: #E10148;
+}
+
+.red_color{
+    color:var(--custom-red);
+    padding-top: 10px;
+    margin-top: -10px;
+}
+
+
+
+
+.bg_red {
+    background-color: var(--custom-red);
+}
+
+//Black_button
+.bg_black_button {
+    fill: black;
+    /* изначальный цвет */
+}
+
+.black_button:hover .bg_black_button {
+    fill: #5e5e5e;
+    /* новый цвет при наведении */
+}
+
+//red_button
+.bg_red_button {
+    fill: var(--custom-red);
+    /* изначальный цвет */
+}
+
+.red_button:hover .bg_red_button {
+    fill: #9b0a38;
+    /* новый цвет при наведении */
+}
+
+
+//white_button
+.bg_white_button {
+    fill: white;
+    /* изначальный цвет */
+}
+
+.white_button:hover .bg_white_button {
+    fill: #E10148;
+    /* новый цвет при наведении */
+}
+
+
+.white_button:hover  {
+    stroke: #dbe0eb;
+}
+
+
+.card{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Inter-light";
+}
+
+p {
+    font-family: "Inter-light";
+    margin-bottom: 0;
+}
+
+ul {
+    font-family: "Inter-light";
+}
+
+
+
+a {
+    font-family: "Inter-light";
+    text-decoration: none;
+}
+
+.ibm3270{
+    font-family: "IBM3270";
+}
+
+
+
+
+//ARROWS
+.arrow_item{
+    left: -40px;
+    position: relative;
+}
+    .arrow_item_2{
+        left: -40px;
+        position: relative;
+    }
+.carousel-control-prev{
+    left:-160px;
+ }
+ 
+ .carousel-control-next{
+ right:-160px;
+ }
+
+
+
+ //INPUT
+ input{
+    background: transparent;
+}
+
+
+.cursor_pointer{
+    cursor: pointer;
+}
+
+
+/* .bg_pattern{
+        background-image: url(../img/pattern.png);
+        background-repeat: repeat;
+    }   */
+
+//HEADER
+header{
+    -webkit-box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
+box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.сontainer_header{
+    
+    .nav-link:hover{
+        color: #E10148!important;
+    }
+}
+
+.img-wrapper {  
+    overflow: hidden; 
+  }
+  
+  .bi-list{
+    background-color:var(--custom-red);
+    color: white;
+  }
+
+  .mail_item{
+    fill: black;
+  }
+ 
+
+  //CONTAINER_CATALOG
+
+  .container_catalog{
+    .container_besplatniy {
+        .input_item1 {
+            height: 74px;
+            width: 380px;
+          }
+          .input_item2 {
+            height: 74px;
+            width: 360px;
+          }
+          .input_item3 {
+            height: 74px;
+            width: 323px;
+          }
+          .zamer_item{
+            width: 130%;
+            margin-top: -41px;
+          }
+    }
+
+
+    //CONSULTATION
+    .container_consultation{
+        .input_item1{
+            height: 110px;
+            width: 306px;                    
+        }
+        .input_item2{
+            height: 110px;
+            width: 311px;
+        }
+        .input_item3{
+            height: 114px;
+            width: 310px;
+        }
+        .custom_font{
+            margin-left: -25px;
+          }
+    }
+
+    .container_collelcii{
+        .carousel-control-prev{
+            left:-120px;
+        }
+        .carousel-control-next{
+            right: -120px;
+        }
+    }
+     
+    .container_otzivi{
+        .carousel-control-prev{
+            left:-120px;
+        }
+        .carousel-control-next{
+            right: -120px;
+        }
+    }
+
+    .container_product{
+        .carousel-control-prev{
+            left:0px;
+        }
+        .carousel-control-next{
+            right:0px;
+        }
+    }
+  }
+
+//BANER
+.bg_baner{
+    background-image: url('../img/baner_catalog_category.png');
+            background-repeat: no-repeat;
+            background-size: cover; 
+}
+
+.bg_baner2{
+    background-image: url('../img/baner_3.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.container_baner {
+
+    .square_item{
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .fs-3xl-23{
+        font-weight: 300;
+    }
+    
+
+    //MARKER
+    li {
+        list-style-type: none; /* Убираем маркеры */
+       }
+
+      
+
+       ul {
+        margin-left: -10px; /* Отступ слева в браузере IE и Opera */
+        padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+       }
+    .carousel-indicators [data-bs-target] {
+        box-sizing: content-box;
+        flex: 0 1 auto;
+        width: 30px;
+        height: 6px;
+        padding: 0;
+        margin-right: 3px;
+        margin-left: 3px;
+        text-indent: -999px;
+        cursor: pointer;
+        background-color:#6b0526;
+        background-clip: padding-box;
+        border: 0;
+          border-top-color: currentcolor;
+      }
+      .me-1{
+        margin-right: -3px !important;
+      }
+}
+
+//MOBILE_CARDS
+.container_mobile_cards{
+    a{
+        -webkit-box-shadow: 3px 3px 5px 0px rgba(43,40,43,1);
+        -moz-box-shadow: 3px 3px 5px 0px rgba(43,40,43,1);
+        box-shadow: 3px 3px 5px 0px rgba(43,40,43,1);
+    }
+}
+
+
+                /* DROPDOWN */
+
+                .dropdown-wrapper {
+                    position: relative;
+                    background: #fff;
+                    cursor: pointer;
+                    outline: none;
+                    transition: all 0.3s ease-out;
+                }
+
+                .dropdown-wrapper:after {
+                    content: "";
+                    position: absolute;
+                    left: 5px;
+                    top: 8px;
+                    border-width: 10px 10px 0 10px;
+                    width: 10px;
+                    height: 10px;
+                    border-top: 2px solid #999999;
+                    border-left: 2px solid #999999;
+                    transform: rotate(-135deg);
+                }
+
+                .dropdown-wrapper.is-active {
+                    border-radius: 5px 5px 0 0;
+                    box-shadow: none;
+                    border-bottom: none;
+                }
+
+                .dropdown-wrapper.is-active:after {
+                    position: absolute;
+                    top: 8px;
+                    transform: rotate(45deg);
+                    -webkit-transform: rotate(45deg);
+                    -moz-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    -o-transform: rotate(45deg);
+                }
+
+                .dropdown-wrapper.is-active .dropdown-list {
+                    max-height: 800px;
+                }
+
+
+
+                .dropdown-list {
+                    /* Size & position */
+                    top: 100%;
+                    left: 0;
+                    right: 0;
+                    /* Styles */
+                    background: #fff;
+                    border-radius: 0 0 5px 5px;
+                    border: 1px solid rgba(0, 0, 0, 0.087);
+                    border-top: none;
+                    border-bottom: none;
+                    list-style: none;
+                    transition: all 0.3s ease-out;
+                    /* Hiding */
+                    max-height: 0;
+                    overflow: hidden;
+                    padding-left: 0;
+                }
+
+                .dropdown-list li:last-of-type a {
+                    border: none;
+                }
+
+                .dropdown-list a {
+                    display: block;
+                    text-decoration: none;
+                    color: #000000;
+                    transition: all 0.3s ease-out;
+                }
+
+
+            //VHODNIE DVERI
+            .bg_section{
+                background-image: url('../img/background_1.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .container_vhodnie{
+            
+            .dot_items{
+                opacity: 0.7;
+                filter: alpha(opacity=50);
+            }
+            .dot_items:hover{
+                transition: 0.1s;
+                transform: scale(1.1);
+                opacity: 1;
+                filter: alpha(opacity=50);
+            }
+
+            
+
+            .pb-50 {
+                padding-bottom: 6rem !important;
+            }
+
+            .image_item:hover{
+                    cursor: pointer;
+                    transition: 0.3s;
+                    transform: scale(1.1);
+            }
+            
+
+            }
+
+
+
+            //METAL DVERI
+
+            .container_metal{
+                .mb-10{
+                        max-width: 70%;
+                }
+                .mt-20:hover{
+                    cursor: pointer;
+                }
+
+
+
+            .favorite_item{
+                fill: red;
+            }
+
+            }
+
+
+            
+
+            //TECHNICHESKIE DVERI
+            .container_technicheskie{
+                .image_item:hover{
+                    cursor: pointer;
+                    transition: 0.3s;
+                    transform: scale(1.1);
+                }
+            
+            
+            }
+
+
+
+            //BESPLATNIY ZAMER
+            .container_besplatniy{
+                .zamer_item{
+                    margin-top: -15px;
+                }
+                .ms-18{
+                    margin-top: -12px;
+                }
+            
+                .input_item1{
+                height: 104px;
+                width: 580px;
+                }
+                .input_item2{
+                    height: 105px;
+                    width: 530px;
+                }
+                .input_item3{
+                    height: 105px;
+                    width: 475px;
+                }
+            }
+
+
+            //BESPLATNIY ZAMER_MOBILE
+            .zamerchik_item{
+                width: 150px ;
+                height: 180px;
+                margin-top: 20px;
+            }
+
+            //MOY DOM
+            .bg_section_2{
+                background-image: url('../img/background_3.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+        //SVARNIE RESHETKI
+        .bg_section_5{
+            background-image: url('../img/background_5.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+                    //PHOTOS
+                    .container_photos{
+                        .img_item:hover{
+                            transition: 0.1s;
+                            transform-origin: 41% 15%;
+                        transform: translate(3px, -3px) scale(1.13, 1.08);
+                    }
+                    
+                        .ratio:hover #stroke_red{
+                            stroke: red !important;
+                        }
+                    
+                        
+                    }
+                    
+
+                    //CARD
+                    .card{
+                    .px-12:hover{
+                        color: white;
+                    }
+
+                    .heart_item:hover{
+                        fill: #E10148;
+                        cursor: pointer;
+                    }
+
+
+                    }
+                
+                
+                     //KAK ZAKAZAT I USTANOVIT
+                    .container_ceni{
+                        .w_25{
+                            width: 10%;
+                        }
+                        .float-end{
+                            margin-top: -20px;
+                            margin-right: -20px;
+                        }
+                    }
+
+                //KAK_ZAKAZAT
+                .container_kak_zakazat{
+                    .mb-0{
+                        color:var(--custom-red);
+                    }
+                    
+                }
+
+                
+            //CONSULTATION
+            .container_consultation{
+                .input_item1{
+                    height: 104px;
+                    width: 590px;
+                }
+                .input_item2{
+                    height: 104px;
+                    width: 534px;
+                }
+                .input_item3{
+                    height: 105px;
+                    width: 475px;
+                }
+            }
+
+
+                //NEPUSTIM
+
+                .bg_section_4{
+                    background-image: url('../img/background_4.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                //KOLLEKCII
+                .container_collelcii{
+                .px-10:hover{
+                    color: white;
+                }
+
+                .mt-md-20:hover{
+                    cursor: pointer;
+                    transition: 0.3s;
+                    transform: scale(1.1);
+                }
+                }
+
+                //PO NAZNACHENIyU
+                .container_ponaznacheniu{
+                    .btn-outline-secondary:hover {
+                        background-color: var(--custom-red) !important;
+                    }
+                }
+
+
+                //CONSULTATION
+                .bg_section_3{
+                    background-image: url('../img/background_2.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+
+                //POPULyAdnie
+                .container_populyzrnie{
+                    li {
+                        list-style-type: none; /* Убираем маркеры */
+                    }
+                    ul {
+                        padding-left: 0; /* Сдвигаем список влево */
+                    }
+                    button{
+                        width: 15%;
+                    }
+                }
+
+                        //PHOTOS2
+                        .container_photos2{
+                            button{
+                                width: 15%;
+                            }
+                        }
+
+            //IZGOTVLENIE I MONTAZH
+
+            .bg_section_6{
+                background-image: url('../img/background_6.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+
+            //NEPUSTIM
+
+                .bg_section_7{
+                    background-image: url('../img/background_7.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+
+
+                   //KOVANNIE_RESHETKI
+
+                   .bg_section_8{
+                    background-image: url('../img/background_8.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+
+                  //VHODNIE_RESHETKI
+
+                  .bg_section_9{
+                    background-image: url('../img/background_9.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                //VHODNIE_DVERI
+
+                .bg-secondary_custom{
+                    background-color: #fffbfbeb;
+                    min-height: 320px;
+                }
+
+
+
+        //OTZIVI
+        .container_otzivi{
+            .white_button{
+            margin-right: -44%;
+            p{
+                color: #6a716a;
+            }
+            p:hover{
+                color: white;
+            }
+            }
+            .arrow_down_item{
+                margin-top: -15px;
+            }
+            .fs-lg-8{
+                padding-top: 5px;
+                margin-top: -5px;
+            }
+        }
+
+
+            //KARTA
+            .container_map{
+            .map_baner{
+                li {
+                    list-style-type: var(--custom-red); /* Убираем маркеры */
+                }
+            }
+
+            li::marker {
+                color:#E10148;;
+              }
+            
+            .map {
+                height: 600px;
+            }
+        }
+
+        :focus{
+            outline: none;
+            }
+
+
+  // MEDIA QUERIES
+
+  @media (max-width: 1800px){
+  
+    //METAL DVERI
+    .container_metal{
+        .mt-xl-20{
+            width: 35%;
+        }
+        .mb-10{
+           max-width: 35%;
+       }
+       .frame2_item{
+           width: 148px;
+           height: 53px;
+       }
+       .bg_white_button{
+           width: 155px;
+           height: 52px;
+       }
+    }
+
+     //VHODNIE DVERI
+     .container_vhodnie{
+        .icons_items{
+            width: 20%;
+        }
+        }
+
+
+    //CONSULTATION
+    .container_consultation{
+        .input_item{
+            width: 371px;
+            height: 76px;
+        }
+    }
+
+    //TECHNICHESKIE DVERI
+    .container_technicheskie{
+        .mt-xl-10{
+            width: 35%;
+        }
+        .mb-10{
+           max-width: 35%;
+       }
+       .frame2_item{
+           width: 148px;
+           height: 53px;
+       }
+       .bg_white_button{
+           width: 155px;
+           height: 52px;
+       }
+    }
+
+      //CONTAINER_CATALOG
+
+  .container_catalog{
+    .col-lg-3 {
+        img{
+            width: 296px;
+            height: 38px;
+        }
+    }
+    .container_besplatniy {
+        .input_item1 {
+            height: 57px;
+            width: 248px;
+          }
+          .input_item2 {
+            height: 59px;
+            width: 245px;
+          }
+          .input_item3 {
+            height: 58px;
+            width: 240px;
+          }
+          .zamer_item{
+            width: 130%;
+            margin-top: -28px;
+          }  
+    }
+
+    .container_metal{
+        .mt-xl-20{
+            width: 35%;
+        }
+        .mb-10{
+           max-width: 35%;
+       }
+       .frame2_item{
+           width: 148px;
+           height: 53px;
+       }
+       .bg_white_button{
+            width: 144px;
+            height: 53px;
+       }
+    }
+     
+    .container_collelcii{
+        .carousel-control-prev{
+            left:-100px;
+        }
+        .carousel-control-next{
+            right: -100px;
+        }
+    }
+
+    .container_otzivi{
+        .carousel-control-prev{
+            left:-100px;
+        }
+        .carousel-control-next{
+            right: -100px;
+        }
+    }
+
+     //CONSULTATION
+     .container_consultation{
+        .input_item1 {
+            width: 234px;
+            height: 76px;
+          }
+        .input_item2 {
+            width: 237px;
+            height: 76px;
+          }
+        .input_item3 {
+            width: 240px;
+            height: 76px;
+          }
+          .custom_font{
+            margin-left: -10px;
+          }
+    }
+   
+  }
+
+     //BESPLATNIY ZAMER
+     .container_besplatniy{
+        .input_item{
+            width: 371px;
+            height: 76px;
+        }
+        .zamer_item{
+            width: 112%;
+        }
+    }
+
+    //PHOTOS
+    .container_photos{
+        .ratio-4x4{
+            min-height: 200px !important;
+        }
+    }
+
+
+    //KOLLEKCII
+    .container_collelcii{
+        .carousel-inner{
+        .top_frame__item{
+            width: 298px;
+            height: 30px;
+        }
+        .frame2_item{
+            width: 148px;
+            height: 53px;
+        }
+        .bg_white_button{
+            width: 155px;
+            height: 52px;
+        }
+    }
+    .justify-content-center{
+        .bg_white_button{
+            width: 125px;
+            height: 32px;
+        }
+    }
+    }
+    //OTZIVI
+    .container_otzivi{
+        .bg_white_button{
+            width: 225px;
+            height: 28px;
+        }
+    }
+  }
+
+  
+
+  @media (max-width: 1400px){
+    //BANER
+    .container_baner{
+        .bg_black_button{
+            width: 148px;
+            height: 37px;
+           }
+       .bg_red_button{
+        width: 153px;
+        height: 38px;
+       }
+       .blue_logo{
+        width: 15%;
+       }
+         //ARROWS
+         .arrow_item{
+            left: -40px;
+            position: relative;
+        }
+
+        .carousel-control-prev{
+            left:-105px;
+            img{
+                width: 15%;
+            }
+        }
+        
+        .carousel-control-next{
+        right:-105px;
+        img{
+            width: 15%;
+        }
+        }
+    }
+
+    //VHODNIE DVERI
+    .container_vhodnie{
+    .icons_items{
+        width: 20%;
+    }
+    }
+
+    
+
+                //CONTAINER_CATALOG
+
+            .container_catalog{
+                .col-lg-3 {
+                    img{
+                        width: 253px;
+                        height: 31px;
+                    }
+                }
+                .container_besplatniy {
+                    .input_item1 {
+                        height: 50px;
+                        width: 200px;
+                    }
+                    .input_item2 {
+                        height: 50px;
+                        width: 203px;
+                    }
+                    .input_item3 {
+                        height: 50px;
+                        width: 200px;
+                    }
+                    .zamer_item{
+                        width: 130%;
+                        margin-top: -19px;
+                    }
+                    .custom_font{
+                        margin-left: -10px;
+                    }
+                }
+
+                .container_metal{
+                
+                    .mb-10{
+                        max-width: 35%;
+                    }
+                    .frame2_item{
+                        width: 124px;
+                        height: 42px;
+                    }
+                    .bg_white_button{
+                        width: 122px;
+                        height: 43px;
+                    }
+                    .heart_item{
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+
+                .container_collelcii{
+                    .carousel-control-prev{
+                        left:-90px;
+                    }
+                    .carousel-control-next{
+                        right: -90px;
+                    }
+                }
+
+                .container_otzivi{
+                    .carousel-control-prev{
+                        left:-90px;
+                    }
+                    .carousel-control-next{
+                        right: -90px;
+                    }
+                }
+
+                   //CONSULTATION_CATALOG_CATEGORy
+                    .container_consultation{
+                        .input_item1 {
+                            width: 200px;
+                            height: 71px;
+                        }
+                        .input_item2 {
+                            width: 203px;
+                            height: 71px;
+                        }
+                        .input_item3 {
+                            width: 202px;
+                            height: 71px;           
+                        }
+                        .custom_font{
+                            margin-left: -20px;
+                        }
+                    }
+
+            }
+
+
+            //ARROWS
+        .arrow_item{
+            left: -40px;
+            position: relative;
+        }
+
+        .carousel-control-prev{
+            left:-105px;
+            img{
+                width: 80%;
+            }
+        }
+        
+        .carousel-control-next{
+        right:-105px;
+        img{
+            width: 80%;
+        }
+        }
+
+
+        //METAL DVERI
+        .container_metal{
+        
+            .mb-10{
+                max-width: 35%;
+            }
+            .frame2_item{
+                width: 128px;
+                height: 43px;
+            }
+            .bg_white_button{
+                width: 135px;
+                height: 42px;
+            }
+            .heart_item{
+                width: 30px;
+                height: 30px;
+            }
+        }
+            //CONSULTATION
+            .container_consultation{
+                .mt-10{
+                    width: 90%;
+                }
+                .input_item{
+                    width: 300px;
+                    height: 71px;
+                }
+            }
+
+
+          
+     //TECHNICHESKIE DVERI
+            .container_technicheskie{
+            
+                .mb-10{
+                max-width: 35%;
+            }
+            .frame2_item{
+                width: 125px;
+                height: 43px;
+            }
+            .bg_white_button{
+                width: 125px;
+                height: 41px;
+            }
+            .heart_item{
+                width: 30px;
+                height: 30px;
+            }
+            }
+
+            //BESPLATNIY ZAMER
+            .container_besplatniy{
+                .input_item{
+                    width: 300px;
+                    height: 71px;
+                }
+                .zamer_item{
+                    width: 117%;
+                }
+                }
+
+                //PHOTOS
+                .container_photos{
+                    .ratio-4x4{
+                        min-height: 150px !important;
+                    }
+                }
+                //KAK ZAKAZAT
+                .container_kak_zakazat{
+                    .img_item{
+                        width: 30%;
+                    }
+                }
+                    //KOLLEKCII
+                    .container_collelcii{
+                        .carousel-inner{
+                        .top_frame__item{
+                            width: 250px;
+                            height: 25px;
+                        }
+                        .frame2_item{
+                            width: 125px;
+                            height: 43px;
+                        }
+                        .bg_white_button{
+                            width: 125px;
+                            height: 41px;
+                        }
+                    }
+                    .justify-content-center{
+                        .bg_white_button{
+                            width: 105px;
+                            height: 27px;
+                        }
+                    }
+                    }
+
+                                    //OTZIVI
+                    .container_otzivi{
+                        .bg_white_button{
+                            width: 200px;
+                            height: 24px;
+                        }
+                    }
+                }
+
+                    @media (max-width: 1200px){
+                        //HEADER
+                        .сontainer_header{
+                            .mail_item{
+                                width: 10%;
+                            }
+                            .bg_black_button{
+                                width: 135px;
+                                height: 41px;
+                            }
+                            .bg_red_button{
+                                width: 135px;
+                                height: 41px;
+                            }
+                        }
+
+
+                        //BANER
+                        .container_baner{
+                            .bg_black_button{
+                                width: 136px;
+                                height: 36px;
+                            }
+                        .bg_red_button{
+                            width: 137px;
+                            height: 38px;
+                        }
+                        .blue_logo{
+                            width: 10%;
+                        }
+
+                        .carousel-indicators [data-bs-target] {
+                            width: 10px;
+                            height: 3px;
+                        }
+                        .carousel-control-prev{
+                            left:-105px;
+                            img{
+                                width: 17%;
+                            }
+                        }
+                        
+                        .carousel-control-next{
+                        right:-105px;
+                        img{
+                            width: 17%;
+                        }
+                        }
+
+                        }
+                    //METAL DVERI
+                    .container_metal{
+                        .miniframe{
+                            width: 66px;
+                            height: 26px;
+                        }
+                        .heart_item{
+                            width: 25px;
+                            height: 25px;
+                        }
+
+                        .frame2_item{
+                            width: 106px;
+                            height: 33px;
+                        }
+                        .bg_white_button{
+                            width: 109px;
+                            height: 32px;
+                        }
+                    }
+
+
+                                    //CONTAINER_CATALOG
+
+                            .container_catalog{
+                                .col-lg-3 {
+                                    img{
+                                        width: 213px;
+                                        height: 27px;
+                                    }
+                                }
+                                    
+                                .container_besplatniy {
+                                    .input_item1 {
+                                        height: 44px;
+                                        width: 164px;
+                                    }
+                                    .input_item2 {
+                                        height: 45px;
+                                        width: 168px;
+                                    }
+                                    .input_item3 {
+                                        height: 43px;
+                                        width: 168px;
+                                    }
+                                    .zamer_item{
+                                        width: 120%;
+                                        margin-top: -4px;
+                                    }
+                                    .custom_font{
+                                        margin-left: -14px;
+                                    }
+                                }
+
+                                .container_metal{
+                                    .miniframe{
+                                        width: 66px;
+                                        height: 26px;
+                                    }
+                                    .heart_item{
+                                        width: 25px;
+                                        height: 25px;
+                                    }
+            
+                                    .frame2_item{
+                                        width: 100px;
+                                        height: 33px;
+                                    }
+                                    .bg_white_button{
+                                        width: 100px;
+                                        height: 32px;
+                                    }
+                                }
+
+                                .container_collelcii{
+                                    .carousel-control-prev{
+                                        left:-80px;
+                                    }
+                                    .carousel-control-next{
+                                        right: -80px;
+                                    }
+                                }
+                
+                                .container_otzivi{
+                                    .carousel-control-prev{
+                                        left:-80px;
+                                    }
+                                    .carousel-control-next{
+                                        right: -80px;
+                                    }
+                                }
+
+                                   //CONSULTATION_CATALOG_CATEGORy
+                                   .container_consultation{
+                                    .input_item1 {
+                                        width: 165px;
+                                        height: 80px;       
+                                    }
+                                    .input_item2 {
+                                        width: 173px;
+                                        height: 80px;
+                                    }
+                                    .input_item3 {
+                                        width: 170px;
+                                        height: 80px;
+                                    }
+                                    .custom_font{
+                                        margin-left: -20px;
+                                      }
+                                }
+                            }
+                                            //CONSULTATION
+                                        .container_consultation{
+                                            .mt-10{
+                                                width: 80%;
+                                            }
+                                            .input_item{
+                                                width: 244px;
+                                                height: 72px;
+                                            }
+                                        }
+
+                                        
+                             
+                                //TECHNICHESKIE DVERI
+                                    .container_technicheskie{
+                                        .bg_red_button{
+                                            width: 200px;
+                                            height: 50px;
+                                        }
+
+                                        .miniframe{
+                                            width: 66px;
+                                            height: 26px;
+                                        }
+                            
+                                        .frame2_item{
+                                            width: 106px;
+                                            height: 33px;
+                                        }
+                                        .bg_white_button{
+                                            width: 109px;
+                                            height: 32px;
+                                        }
+                                        .heart_item{
+                                            width: 25px;
+                                            height: 25px;
+                                        }
+                                    }
+
+
+                                    //BESPLATNIY ZAMER
+                                    .container_besplatniy{
+                                        .input_item{
+                                            width: 245px;
+                                            height: 62px;
+                                    }
+                                    .zamer_item{
+                                        margin-top: -24px;
+                                        width: 121%;
+                                    }
+                                    .order-last{
+                                        margin-top: -2px;
+                                    }
+                                    }
+
+
+                                    
+
+                                    //PHOTOS
+                                        .container_photos{
+                                            .ratio-4x4{
+                                                min-height: 130px !important;
+                                            }
+                                            .bg_white_button{
+                                                width: 300px;
+                                                height: 55px;
+                                            }
+                                        }
+                                        //KOLLEKCII
+                                    .container_collelcii{
+                                        .carousel-inner{
+                                        .top_frame__item{
+                                            width: 210px;
+                                            height: 23px;
+                                        }
+                                        .frame2_item{
+                                            width: 106px;
+                                            height: 33px;
+                                        }
+                                        .bg_white_button{
+                                            width: 109px;
+                                            height: 32px;
+                                        }
+                                        
+                                    }
+                                    .justify-content-center{
+                                        .bg_white_button{
+                                            width: 90px;
+                                            height: 25px;
+                                        }
+                                    }
+                                    }
+                                    
+                                    //KAK ZAKAZAT
+                                    .container_kak_zakazat{
+                                        .bg_red_button{
+                                            width: 200px;
+                                            height: 50px;
+                                        }
+                                    }
+                                    .container_consultation{
+                                        .bg_red_button{
+                                            width: 250px;
+                                            height: 80px;
+                                        }
+                                        .bg_black_button{
+                                            width: 250px;
+                                            height: 80px;
+                                        }
+                                    }
+                                    
+
+                                    //PHOTOS2
+                                    .container_photos2{
+                                        .bg_white_button{
+                                            width: 90px;
+                                            height: 25px;
+                                        }
+                                        .ratio-4x4{
+                                            min-height: 150px !important;
+                                        }
+                                    }
+
+
+                                    //HUDOJESTVENNAyA COVKA
+                                    .container_hudojestvenaya{
+                                    .bg_red_button{
+                                        width: 200px;
+                                        height: 50px;
+                                    }
+                                }
+                                                 //OTZIVI
+                                            .container_otzivi{
+                                                .bg_white_button{
+                                                    width: 180px;
+                                                    height: 20px;
+                                                }
+                                            }
+
+
+                                         
+                        }
+
+
+
+  
+
+   
+                @media (max-width: 992px){
+
+                    //BANER
+                    .bg_section{
+                        background-image: none;
+                        background-color: white;
+                    }
+
+                    .container_baner{
+                        .arrow_item{
+                            left: -40px;
+                            position: relative;
+                        }
+            
+                        .carousel-control-prev{
+                            left:-80px;
+                            img{
+                                width: 23%;
+                            }
+                        }
+                        .carousel-control-next{
+                            right:-80px;
+                            img{
+                            width: 23%;
+                            }
+                    }
+                }
+
+                //VHODNIE DVERI
+
+            //ARROWS
+            .arrow_item{
+                left: -40px;
+                position: relative;
+            }
+
+            .carousel-control-prev{
+                left:-80px;
+                img{
+                    width: 80%;
+                }
+            }
+            .carousel-control-next{
+                right:-80px;
+                img{
+                width: 80%;
+                }
+                }
+
+            //METAL DVERI
+            .container_metal{
+                .miniframe{
+                    width: 75px;
+                    height: 31px;
+                }
+                .heart_item{
+                    width: 31px;
+                    height: 31px;
+                }
+
+                .frame2_item{
+                    width: 169px;
+                    height: 47px;
+                }
+                .bg_white_button{
+                    width: 170px;
+                    height:48px;
+                }
+            }
+
+
+             //CONTAINER_CATALOG
+
+             .container_catalog{
+                .container_besplatniy {
+                    .input_item1 {
+                        height: 42px;
+                        width: 180px;
+                    }
+                    .input_item2 {
+                        height: 43px;
+                        width: 179px;
+                    }
+                    .input_item3 {
+                        height: 42px;
+                        width: 154px;
+                      }
+                    
+                    .zamer_item{
+                        width: 120%;
+                        margin-top: -13px;
+                    }
+                    .custom_font{
+                        margin-left: -0px;
+                    }
+                }
+                
+                    .container_metal{
+                        .miniframe{
+                            width: 75px;
+                            height: 31px;
+                        }
+                        .heart_item{
+                            width: 31px;
+                            height: 31px;
+                        }
+        
+                        .frame2_item{
+                            width: 160px;
+                            height: 47px;
+                        }
+                        .bg_white_button{
+                            width: 162px;
+                            height:48px;
+                        }
+                    }
+
+                       //CONSULTATION_CATALOG_CATEGORy
+                       .container_consultation{
+                        .input_item1 {
+                            width: 158px;
+                            height: 70px;      
+                        }
+                        .input_item2 {
+                            width: 160px;
+                            height: 70px;
+                        }
+                        .input_item3 {
+                            width: 157px;
+                            height: 70px;
+                        }
+                        .custom_font{
+                            margin-left: 0px;
+                          }
+                    }
+
+                    
+                }
+            
+            
+
+                //CONSULTATION
+                .container_consultation{
+                    .mt-10{
+                        width: 80%;
+                    }
+                    .input_item{
+                        width: 166px;
+                        height: 68px;
+                       
+                    }
+                
+                }
+
+                //TECHNICHESKIE DVERI
+                .container_technicheskie{
+                    .bg_red_button{
+                        width: 180px;
+                        height: 50px;
+                       }
+                    .miniframe{
+                        width: 75px;
+                        height: 31px;
+                    }
+                    .heart_item{
+                        width: 31px;
+                        height: 31px;
+                    }
+                
+                    .frame2_item{
+                        width: 169px;
+                        height: 47px;
+                    }
+                    .bg_white_button{
+                        width: 170px;
+                        height:48px;
+                    }
+                }
+
+                //BESPLATNIY ZAMER
+                .container_besplatniy{
+                    .input_item{
+                        width: 162px;
+                        height: 40px;
+                }
+                .zamer_item{
+                    width: 124%;
+                }
+                }
+
+                //PHOTOS
+                .container_photos{
+                    .ratio-4x4{
+                        min-height: 200px !important;
+                    }
+                }
+                //KOLLEKCII
+                .container_collelcii{
+                    .carousel-inner{
+                        .top_frame__item{
+                            width: 340px;
+                            height: 34px;
+                        }
+                    .frame2_item{
+                        width: 169px;
+                        height: 47px;
+                    }
+                    .bg_white_button{
+                        width: 170px;
+                        height:48px;
+                    }
+                }
+                .justify-content-center{
+                    .bg_white_button{
+                        width: 100%;
+                        
+                    }
+                }
+                }
+                  //KAK ZAKAZAT
+                  .container_kak_zakazat{
+                    .bg_red_button{
+                        width: 180px;
+                        height: 50px;
+                       }
+                }
+                 //PHOTOS2
+                 .container_photos2{
+                    .bg_white_button{
+                        width: 100%;
+                    }
+                    .ratio-4x4{
+                        min-height: 200px !important;
+                    }
+                }
+                  //OTZIVI
+                  .container_otzivi{
+                    .bg_white_button{
+                         width: 233px;
+                         height: 32px;
+                    }
+                }
+}
+            
+
+
+    @media (max-width: 768px){ 
+
+         //BANER
+         .container_baner{
+            .arrow_item{
+                left: -40px;
+                position: relative;
+            }
+
+            .carousel-control-prev{
+                left:-80px;
+                img{
+                    width: 30%;
+                }
+            }
+            .carousel-control-next{
+                right:-80px;
+                img{
+                width: 30%;
+                }
+        }
+    }
+
+        //METAL DVERI
+       .container_metal{
+        .miniframe{
+            width: 60px;
+            height: 25px;
+        }
+        .heart_item{
+            width:28px;
+            height: 28px;
+        }
+        
+        .fs-5{
+            white-space: nowrap;
+            margin-left: -4px;
+        }
+
+        .frame2_item{
+            width: 126px;
+            height: 43px;
+        }
+        .bg_white_button{
+            width: 128px;
+            height: 42px;
+        }
+         }
+
+
+
+          //CONTAINER_CATALOG
+
+          .container_catalog{
+            .col-lg-3 img {
+                width: 513px;
+                height: 67px;
+              }
+            .container_metal{
+                .miniframe{
+                    width: 60px;
+                    height: 25px;
+                }
+                .heart_item{
+                    width:28px;
+                    height: 28px;
+                }
+                
+                .fs-5{
+                    white-space: nowrap;
+                    margin-left: -4px;
+                }
+        
+                .frame2_item{
+                    width: 120px;
+                    height: 43px;
+                }
+                .bg_white_button{
+                    width: 120px;
+                    height: 42px;
+                }
+                 }
+
+
+                 .container_collelcii{
+                    .carousel-control-prev{
+                        left:-60px;
+                    }
+                    .carousel-control-next{
+                        right: -60px;
+                    }
+                }
+
+
+                 .container_otzivi{
+                    .carousel-control-prev{
+                        left:-60px;
+                    }
+                    .carousel-control-next{
+                        right: -60px;
+                    }
+                }
+                .dropdown-wrapper:after {
+                    content: "";
+                    left: 10px;
+                }
+          }
+
+           //CONSULTATION
+    .container_consultation{
+        .mt-10{
+            width: 80%;
+            margin-top: 0 !important;
+        }
+        .input_item1{
+            width: 100%;
+            height:50%;
+        }
+
+        .input_item2{
+            width: 100%;
+            height:50%;
+        }
+        .input_item3{
+            width: 100%;
+            height:50%;
+        }
+        .card-img-overlay_item{
+            position: relative !important;
+ 
+        }
+    }
+
+     //BESPLATNIY ZAMER_MOBILE
+     .zamerchik_item{
+        margin-top: -60px;
+    }
+
+
+    //TECHNICHESKIE DVERI
+    .container_technicheskie{
+        .miniframe{
+            width: 60px;
+            height: 25px;
+        }
+        .heart_item{
+            width:28px;
+            height: 28px;
+        }
+        
+        .fs-5{
+            white-space: nowrap;
+            margin-left: -4px;
+        }
+
+        .frame2_item{
+            width: 126px;
+            height: 43px;
+        }
+        .bg_white_button{
+            width: 128px;
+            height: 42px;
+        }
+    }
+
+     //BESPLATNIY ZAMER
+     .container_besplatniy{
+        .input_item1{
+            width: 100%;
+            height:50%;
+        }
+
+        .input_item2{
+            width: 100%;
+            height:50%;
+        }
+        .input_item3{
+            width: 100%;
+            height:50%;
+        }
+        .card-img-overlay_item{
+            position: relative !important;
+        }
+    }
+
+    //PHOTOS
+    .container_photos{
+        .ratio-4x4{
+            min-height: 150px !important;
+        }
+    }
+
+    //KOLLEKCII
+    .container_collelcii{
+        .carousel-inner{
+        .top_frame__item{
+            width: 250px;
+            height: 25px;
+        }
+        .frame2_item{
+            width: 126px;
+            height: 43px;
+        }
+        .bg_white_button{
+            width: 128px;
+            height: 42px;
+        }
+    }
+
+     //PHOTOS
+     .container_photos2{
+        .ratio-4x4{
+            min-height: 150px !important;
+        }
+    }
+    }
+
+
+    //CONSULTATION_2
+    .container_consultation{
+       
+        .bg_black_button{
+            width: 100%;
+        }
+    }
+
+    //POPULyAdnie
+.container_populyzrnie{
+  
+       .btn{
+        width: 25%;
+    }
+}
+
+        //PHOTOS2
+        .container_photos2{
+            button{
+                width: 25%;
+            }
+        }
+
+     //OTZIVI
+     .container_otzivi{
+        .bg_white_button{
+             width: 210px;
+             height: 24px;
+        }
+    }
+    }
+
+
+  @media (max-width: 575px){
+            //VHODNIE DVERI
+            .container_vhodnie{
+                //ARROWS
+            .arrow_item{
+                left: -16px;
+                position: relative;
+                width: 7%;
+            }
+            }
+
+
+        //METAL DVERI
+       .container_metal{
+        .miniframe{
+            width: 50px;
+            height: 20px;
+        }
+        .fs-5{
+            white-space: nowrap;
+            margin-left: -4px;
+        }
+        .heart_item{
+            width:28px;
+            height: 28px;
+        }
+        
+        .mb-10 {
+            margin-bottom: 0 !important;
+        }
+
+        .frame2_item{
+            width:100%;
+            height: 100%;
+        }
+        .bg_white_button{
+            width: 100%;
+            height: 100%;
+        }
+        .arrow_item{
+            left: -5px;
+            position: relative;
+            width: 13%;
+        }
+        
+         }
+         
+        //CATALOG CATEGORy
+         .container_catalog{
+            .col-lg-3 {
+              img {
+                width: 106%;
+                height: 63px;
+              }
+            }
+            .container_metal{
+                .miniframe{
+                    width: 50px;
+                    height: 20px;
+                }
+                .fs-5{
+                    white-space: nowrap;
+                    margin-left: -4px;
+                }
+                .heart_item{
+                    width:28px;
+                    height: 28px;
+                }
+                
+                .mb-10 {
+                    margin-bottom: 0 !important;
+                }
+        
+                .frame2_item{
+                    width:100%;
+                    height: 100%;
+                }
+                .bg_white_button{
+                    width: 100%;
+                    height: 100%;
+                }
+                .arrow_item{
+                    left: -5px;
+                    position: relative;
+                    width: 13%;
+                }
+                
+                 }
+         }
+
+     //TECHNICHESKIE DVERI
+     .container_technicheskie{
+        .miniframe{
+            width: 50px;
+            height: 20px;
+        }
+        .fs-5{
+            white-space: nowrap;
+            margin-left: -4px;
+        }
+        .heart_item{
+            width:28px;
+            height: 28px;
+        }
+        
+        .mt-10{
+            margin-top: 0px !important;
+        }
+        .mb-10 {
+            margin-bottom: 0 !important;
+        }
+
+        .frame2_item{
+            width:100%;
+            height: 100%;
+        }
+        .bg_white_button{
+            width: 100%;
+            height: 100%;
+        }
+        .arrow_item{
+            left: -5px;
+            position: relative;
+            width: 9%;
+        }
+    }
+
+    //PHOTOS
+    .container_photos{
+        .ratio-4x4{
+            min-height: 100px !important;
+        }
+        .arrow_item{
+            left: -5px;
+            position: relative;
+            width: 9%;
+        }
+    }
+    //KAK ZAKAZAT
+    .container_kak_zakazat{
+        .arrow_item{
+            left: -5px;
+            position: relative;
+            width: 9%;
+        }
+        .arrow_item_2{
+            left: -5px;
+            position: relative;
+            width: 12%;
+        }
+    }
+
+
+    //KOLLEKCII
+    .container_collelcii{
+        .arrow_item{
+            left: -5px;
+            position: relative;
+            width: 6%;
+        }
+        .arrow_item2{
+            width: 13% !important;
+        }
+        .carousel-inner{
+        .top_frame__item{
+            width: 100%;
+            margin-top: -3%;
+        }
+        .frame2_item{
+            width:100%;
+            height: 100%;
+        }
+        .bg_white_button{
+            width: 100%;
+            height: 100%;
+        }
+        .arrow_item{
+            left: -5px;
+            position: relative;
+            width: 7%;
+        }
+        .fs-5{
+            white-space: nowrap;
+        }
+    }
+    }
+
+    //PO NAZNACHENIyU
+    .container_ponaznacheniu{
+        .arrow_item{
+            left: -5px;
+            position: relative;
+            width: 6%;
+        }
+    }
+
+   
+
+    //CONSULTATION_2
+    .container_consultation{
+        .bg_black_button{
+            width: 100%;
+        }
+    }
+
+     //PHOTOS
+     .container_photos2{
+        .ratio-4x4{
+            min-height: 100px !important;
+        }
+        .arrow_item{
+            left: -5px;
+            position: relative;
+            width: 7%;
+        }
+    }
+
+
+    //POPULyArnie
+    .container_populyzrnie{
+        .arrow_item{
+            left: -5px;
+            position: relative;
+            width: 10% !important;
+        }
+
+        .arrow_item2{
+            left: -5px;
+            position: relative;
+            width: 6% !important;
+        }
+    }
+
+    //HUDOJESTVENNAyA COVKA
+    .container_hudojestvenaya{
+        .arrow_item {
+            left: -5px;
+            position: relative;
+            width: 7%;
+          }
+    }
+
+
+
+     //OTZIVI
+     .container_otzivi{  
+        .arrow_item{
+            left: -5px;
+            position: relative;
+            width: 6%;
+        }
+
+        .bg_white_button{
+             width: 190px;
+             height: 25px;
+        }
+    }
+
+    //SCHEMA ZAKAZA
+    .container_schema_zakaza{
+        .arrow_item{
+            left: -5px;
+            position: relative;
+            width: 6%;
+        }
+    }
+  }
+  
+
+  @media (max-width: 540px) {
+
+      //CATALOG CATEGORy
+      .container_catalog{
+        .col-lg-3 {
+          img {
+            width: 101%;
+            height: 63px;
+          }
+        }
+    }
+     //OTZIVI
+     .container_otzivi{
+        .review_text{
+            font-size: 11px !important;
+        }
+           
+    
+        .bg_white_button{
+             width: 190px;
+             height: 25px;
+        }
+    }
+     //KARTA
+     .map_frame{
+        width: 80%;
+    }
+
+}
+
+    @media (max-width: 450px) {
+        //VHODNIE DVERI
+       .container_vhodnie{
+        .carousel-control-prev {
+            left: -1%;
+            img{
+                width: 45%;;
+            }
+        }
+            .carousel-control-next {
+                right:-1%;
+                img{
+                    width: 45%;
+                }
+                
+            }
+          .carousel-control-prev, .carousel-control-next {
+            margin-top: -50px;
+          }
+
+          .prev {
+            margin-left: -40px;
+          }
+        .next {
+            margin-right: -40px;
+          }
+    }
+  
+
+    .prev {
+        margin-left: -30px;
+      }
+    .next {
+        margin-right: -30px;
+      }
+
+         //METAL DVERI
+       .container_metal{
+                .heart_item{
+                    width:20px;
+                    height: 20px;
+                }
+                .miniframe{
+                    width: 40px;
+                    height: 15px;
+                }
+            .mt-10{
+                margin-top: 15px !important;
+            }
+            .ms-20{
+                margin-left: 20px !important;
+            }
+            .pt-2{
+                padding-top: 2px !important;
+            }
+            .fs-7{
+                padding-left: 3px !important;
+                padding-right:  3px !important;
+                padding-top: 5px !important;
+                font-size: 12px !important;
+            }
+            .pt-5{
+                padding-top: 6px !important;
+            }
+            .fs-5{
+                margin-left: -11px;
+                font-size: 11px !important;
+            }
+            
+            .f-s{
+                font-size: 8px !important;
+                margin-left: -7px;
+            }
+            
+         }
+
+
+                    //CATALOG CATEGORy
+                    .container_catalog{
+                        .col-lg-3 {
+                        img {
+                            width: 101%;
+                            height: 43px;
+                        }
+                        }
+                .container_metal{
+                    .heart_item{
+                        width:20px;
+                        height: 20px;
+                    }
+                    .miniframe{
+                        width: 40px;
+                        height: 15px;
+                    }
+                .mt-10{
+                    margin-top: 15px !important;
+                }
+                .ms-20{
+                    margin-left: 20px !important;
+                }
+                .pt-2{
+                    padding-top: 2px !important;
+                }
+                .fs-7{
+                    padding-left: 3px !important;
+                    padding-right:  3px !important;
+                    padding-top: 5px !important;
+                    font-size: 12px !important;
+                }
+                .pt-5{
+                    padding-top: 6px !important;
+                }
+                .fs-5{
+                    margin-left: -11px;
+                    font-size: 11px !important;
+                }
+                
+                .f-s{
+                    font-size: 8px !important;
+                    margin-left: -7px;
+                }
+                
+             }
+
+             .container_collelcii{
+                .carousel-control-prev{
+                    left:-20px;
+                }
+                .carousel-control-next{
+                    right: -20px;
+                }
+                .prev {
+                    margin-left: -1px;
+                  }
+
+                .next {
+                    margin-right: -1px;
+                  }
+            }
+
+             .container_otzivi{
+                .carousel-control-prev{
+                    left:-8px;
+                }
+                .carousel-control-next{
+                    right: -8px;
+                }
+            
+            }
+            
+         }
+
+
+            //CONSULTATION
+    .container_consultation{
+        .pt-14{
+            padding-top: 18px !important;
+        }
+        .pt-7{
+          padding-top: 7px !important;
+        }
+    }
+     //TECHNICHESKIE DVERI
+     .container_technicheskie{
+        .heart_item{
+            width:20px;
+            height: 20px;
+        }
+        .miniframe{
+            width: 40px;
+            height: 15px;
+        }
+    .mt-10{
+        margin-top: 5px !important;
+    }
+    .ms-20{
+        margin-left: 20px !important;
+    }
+    .fs-7{
+        padding-left: 3px !important;
+        padding-right:  3px !important;
+        padding-top: 5px !important;
+        font-size: 12px !important;
+    }
+    .fs-5{
+        margin-left: -15px;
+        font-size: 11px !important;
+    }
+    .text-muted{
+        margin-left: -9px;
+    }
+    
+    .f-s{
+        font-size: 8px !important;
+        margin-left: -7px;
+    }
+  }
+
+        //KOLLEKCII
+        .container_collelcii{
+            .carousel-inner{
+            .top_frame__item{
+                margin-top: -8%;
+                width: 100%;
+            }
+            .red_color {
+                white-space: nowrap;
+            }
+        }
+
+        .carousel-control-prev {
+            left: -1%;
+            img{
+                width: 45%;;
+            }
+        }
+            .carousel-control-next {
+                right:-1%;
+                img{
+                    width: 45%;
+                }
+            }
+            .fs-5{
+                margin-left: -12px;
+                font-size: 11px !important;
+            }
+            .text-muted{
+                margin-left: -5px;
+            }
+        }
+
+        //CONSULTATION_2
+        .container_consultation{
+            .bg_black_button{
+                width: 100%;
+            }
+        }
+
+
+                //BESPLATNIY ZAMER
+            .container_besplatniy{ 
+                .pt-14{
+                    padding-top: 18px !important;
+                }
+                .pt-7{
+                  padding-top: 7px !important;
+                }
+            }
+
+         //TECHNICHESKIE DVERI
+       .container_technicheskie{
+        .carousel-control-prev {
+            left: -1%;
+            img{
+                width: 45%;;
+            }
+        }
+            .carousel-control-next {
+                right:-1%;
+                img{
+                    width: 45%;
+                }
+            }
+      
+    }
+
+    
+        //PHOTOS
+    .container_photos{
+        .bg_white_button{
+            width: 250px;
+            height: 45px;
+        }
+    }
+
+
+    //CENI 
+    .container_ceni{
+        .arrow_item {
+            left: -5px;
+            position: relative;
+            width: 8%;
+          }
+          .arrow_item4{
+            width: 14%;
+          }
+        .fs-7{
+            padding-top: 0 !important;
+        }
+    }
+
+    //KAK ZAKAZAT
+    .container_kak_zakazat{
+        .img_item{
+            width: 20%;
+        }
+       
+    }
+
+
+         //OTZIVI
+         .container_otzivi{
+            .carousel-control-prev {
+                left: -2%;
+                img{
+                    width: 45%;;
+                }
+            }
+                .carousel-control-next {
+                    right:-2%;
+                    img{
+                        width: 45%;
+                    }
+                }
+                .prev {
+        margin-left: -20px;
+      }
+    .next {
+        margin-right: -20px;
+      }
+         }
+
+         //CONSULTATION
+        .bg_section_3{
+            background-image: none;
+            background-color: #ebeced;
+        }
+
+
+
+        //KARTA
+        .map_frame{
+            width: 60%;
+        }
+
+          //FOOTER
+          .container_footer{
+            .pe-5{
+                width: 22%;
+            }
+            .bg_black_button{
+                width: 130%;
+                height: 90%;
+            }
+        }
+
+        .down_arrow{
+            width: 10%;
+          }
+}
+
+
+      
+
+    
