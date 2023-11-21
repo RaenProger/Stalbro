@@ -1,0 +1,627 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shotcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="vendors/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="vendors/nouislider/nouislider.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>СТАЛПРО</title>
+</head>
+
+
+
+    <body class="bg_pattern">
+
+
+                <!--HEADER-->
+                 <header class=" top-0  bg-white text-muted" style="z-index: 4;">
+                <div class="container сontainer_header">
+                    <div class="py-6">
+                        <div class="row align-items-center">
+                            <div class="col-auto">
+                                <div class="d-flex">
+                                    <div class="d-flex align-items-center">
+                                    <a class="navbar-brand text-uppercase" href="index.html"><img class="img-fluid" src="svg/logo.svg" alt="Стал Про"></a>
+                                    </div>
+                                    <p class="d-lg-flex align-items-center fs-5 pt-4 pt-md-2  fs-sm-7 fs-md-10 ms-5 ps-5  ms-sm-10 ps-sm-10 custom_font text-dark border-start border-1 border-dark">Производитель входных <br>дверей и оконных решеток</p>
+                                </div>
+                            </div>
+                            <div class="col-auto text-end ms-auto d-lg-block d-none">
+                                <div class="d-lg-block "><a class="fs-03 text-black  text-hover-light ls-sm text-decoration-none custom_font" href="tel:84953204097">8 (495) 320-40-97</a><small class="d-block fs-7 ls-sm">
+                                    <a class="email text-black" href="mailto:info@smarmatix.ru">
+                                        <img class="mail_item" src="svg/mail.svg" alt="mail">
+                                        info@smarmatix.ru</a>
+                                    </small>
+                                </div>
+                            </div>
+                            <div class="col-auto text-end d-lg-block d-none">
+                                <div class="d-lg-block d-none">
+                                    <small class="fs-7 ls-sm ms-auto custom_font">Режим работы:</small><span class="d-block fs-12 ls-sm text-uppercase mt-2 custom_font">с <span class="red_color">9.00</span> до <span class="red_color">21.00</span></span></div>
+                            </div>
+                            <div class="col-auto ms-lg-0 ms-auto">
+                                <div class="hstack d-lg-none d-flex gap-3">
+                                    <a class="email text-black" href="mailto:info@smarmatix.ru">
+                                        <img class="d-none d-lg-inline-block"  src="svg/mail.svg" alt="mail">
+                                        <img class="d-lg-none"  src="svg/mail_mobile.svg" alt="mail">
+                                    </a>
+                                    <a class="btn d-inline-flex justify-content-center align-items-center p-0" href="tel:84953204097" style="width: 1.5rem; height: 1.5rem;">
+                                        <img  class="d-lg-none" src="svg/phone_mobile.svg" alt="">
+                                        <!--<svg class="svg-icon" style="width: .5rem; height: .5rem;">
+                        <use href="img/sprite_icons.svg" ></use>
+                    </svg>-->
+                                    </a>
+
+                                    <div class="card pe-0  border-0 red_button" data-bs-toggle="modal" data-bs-target="#modal-consultation" type="button">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list rounded-1" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                                        </svg>
+                                </div>
+                            
+                                </div>
+                                <div class="d-lg-block">
+                                    <div class="hstack  d-lg-flex d-none">
+                                        <button class="card pe-0 black_button border-0" data-bs-toggle="modal" data-bs-target="#modal-consultation" type="button">
+                                            <svg class="bg_black_button" width="185" height="41" viewBox="0 0 185 41" fill="currentColor">
+                                            <path d="M185 20.6347V40.5H50.6842C46.1538 40.5003 41.6676 40.0136 37.482 39.0677C33.2963 38.1219 29.4931 36.7354 26.2895 34.9874L0 20.6422V0.5H134.183C138.751 0.501108 143.273 0.997229 147.487 1.95956C151.701 2.92189 155.522 4.33127 158.73 6.10593L185 20.6347Z" />
+                                            </svg>
+                                        <div class="card-img-overlay pt-xl-8 pt-3xl-6">
+                                            <p class="text-white fs-lg-8 ">Консультация</p>
+                                        </div>
+                                        </button>
+                                        <button class="card ps-0  red_button border-0" data-bs-toggle="modal" data-bs-target="#modal-consultation" type="button">
+                                            <svg class="bg_red_button" width="185" height="41" viewBox="0 0 185 41" fill="currentColor">
+                                            <path d="M185 20.6347V40.5H50.6842C46.1538 40.5003 41.6676 40.0136 37.482 39.0677C33.2963 38.1219 29.4931 36.7354 26.2895 34.9874L0 20.6422V0.5H134.183C138.751 0.501108 143.273 0.997229 147.487 1.95956C151.701 2.92189 155.522 4.33127 158.73 6.10593L185 20.6347Z" />
+                                            </svg>
+                                        <div class="card-img-overlay pt-xl-8 pt-3xl-6">
+                                            <p class="text-white fs-lg-8 ">Вызвать на замер</p>
+                                        </div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="d-lg-block d-none w-100 my-0">
+                    <div class="navbar  navbar-expand-lg navbar-dark d-lg-flex align-items-center d-none py-6">
+                        <ul class="navbar-nav align-items-center fs-lg-6 fs-xl-7 pt-3 text-uppercase">
+                            <li class="nav-item me-20"><a class="nav-link text-black red_color ls-sm p-0" href="file:///Users/raen/Documents/WEB/Practice/%D0%A2%D0%97/Stalpro/index.html">Главная</a></li>
+                            <li class="nav-item me-20"><a class="nav-link text-black red_color ls-sm p-0" href="file:///Users/raen/Documents/WEB/Practice/%D0%A2%D0%97/Stalpro/technicheskie_dveri.html">Каталог</a></li>
+                            <li class="nav-item me-20"><a class="nav-link text-black red_color ls-sm p-0" href="reviews.html">О компании</a></li>
+                            <li class="nav-item me-20"><a class="nav-link text-black red_color ls-sm p-0" href="projects.html">Услуги</a></li>
+                            <li class="nav-item me-20"><a class="nav-link text-black red_color ls-sm p-0" href="contacts.html">Акции</a></li>
+                            <li class="nav-item me-20"><a class="nav-link text-black red_color ls-sm p-0" href="contacts.html">Инфо</a></li>
+                            <li class="nav-item me-20"><a class="nav-link text-black red_color ls-sm p-0" href="contacts.html">Цены</a></li>
+                            <li class="nav-item me-20"><a class="nav-link text-black red_color ls-sm p-0" href="projects.html">Наши работы</a></li>
+                            <li class="nav-item me-20"><a class="nav-link text-black red_color ls-sm p-0" href="reviews.html">Контакты</a></li>
+
+                            <!-- <li class="nav-item me-20"><a class="nav-link text-black red_color ls-sm p-0" href="https://raenproger.github.io/Stalpro/index.html">Главная</a></li>
+                            <li class="nav-item me-20"><a class="nav-link text-black red_color ls-sm p-0" href="https://raenproger.github.io/Stalpro/technicheskie_dveri.html">Каталог</a></li>
+                            <li class="nav-item me-20"><a class="nav-link text-black red_color ls-sm p-0" href="reviews.html">О компании</a></li>
+                            <li class="nav-item me-20"><a class="nav-link text-black red_color ls-sm p-0" href="projects.html">Услуги</a></li>
+                            <li class="nav-item me-20"><a class="nav-link text-black red_color ls-sm p-0" href="contacts.html">Акции</a></li>
+                            <li class="nav-item me-20"><a class="nav-link text-black red_color ls-sm p-0" href="contacts.html">Инфо</a></li>
+                            <li class="nav-item me-20"><a class="nav-link text-black red_color ls-sm p-0" href="contacts.html">Цены</a></li>
+                            <li class="nav-item me-20"><a class="nav-link text-black red_color ls-sm p-0" href="projects.html">Наши работы</a></li>
+                            <li class="nav-item me-20"><a class="nav-link text-black red_color ls-sm p-0" href="reviews.html">Контакты</a></li> -->
+                        </ul>
+
+                        <div class="hstack gap-15 ms-auto">
+                            <p class="my-0 fs-lg-6">141640, Московская область.,
+                                <br> Клинский р-он, д. Ясенево, д. 74, стр. 1</p>
+                            <a class="position-relative text-white text-hover-secondary" href="#">
+                                <img src="svg/whatsapp.svg" alt=""></a>
+                            <a class="position-relative text-white text-hover-secondary" href="#">
+                                <img src="svg/square.svg" alt="">
+                                <span class=" d-flex justify-content-center align-items-center position-absolute top-0 end-50 p-2 fs-4 text-white bg_red rounded-pill ls-sm" style="min-width: .8rem; height: .8rem;">0</span></a>
+                            <a class="position-relative text-white text-hover-secondary" href="#">
+                                <img src="svg/heart.svg" alt="">
+                                <span class="badge d-flex justify-content-center align-items-center position-absolute top-0 end-50 p-2 fs-4 text-white bg_red rounded-pill ls-sm" style="min-width: .8rem; height: .8rem;">0</span></a>
+
+                        </div>
+                    </div>
+                </div>
+                 </header>
+
+
+
+                 <!-- BANER -->
+                <section  class="pt-0 pb-lg-10">
+                <div class="container container_baner ">
+                    <h1 class="pt-10 mb-0 pt-lg-20 fs-12 fs-md-13  fs-lg-20 ">Гарантийный сервис и ремонт входных дверей и металлоконструкций:
+                        запаситесь информацией</h1> 
+                        <nav class="ms-5 d-lg-block fs-9 pb-5 py-0 py-sm-5">
+                            <ul class="breadcrumb mb-0 fs-7 pt-5 pt-md-0">
+                                <li class="breadcrumb-item "><a  href="index.html">Главная </a></li>
+                                <li class="breadcrumb-item  "><a class="text-danger" href="file:///C:/Users/%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9%20%D0%9A%D0%B8%D1%81%D0%BB%D1%8F%D0%BA%D0%BE%D0%B2/Documents/WEB/Stalpro/delivery.html">Гарантия на ремонт</a></li>
+                            </ul>
+                        </nav>
+                </div>
+
+                </section>
+
+
+                <!--SALES-->
+                <section class="bg_section_16">
+                    <div class="container container_baners_akcii">
+                        <div class="row py-10 py-md-20">
+                            <div class="col-12  col-lg-6"> 
+                                <p class="text-danger fs-9 fs-md-10 fs-lg-10 fs-xxl-13 fs-3xl-15 fw=bolder pb-2">Производитель СталПро гарантирует,
+                        <span class="text-white fs-7 fs-md-6 fs-lg-10 fs-xxl-13 fs-3xl-11">
+                            что продукция, производимая компанией, соответствует действующим нормативным актам и функционирует надлежащим образом при правильном использовании товаров.
+                            Срок гарантии зависит от модели и комплектации товара.
+                            
+                            Компания СталПро гарантирует надлежащее функционирование металлических дверей при правильном использовании, установке и обслуживании со стороны заказчика или пользователя. Гарантийные обязательства начинаются с момента доставки или самовывоза металлоконструкции. Чтобы сохранить гарантию, покупатель должен следовать условиям эксплуатации, указанным в паспорте изделия. 
+                            
+                            В установленные сроки производитель обязуется осуществить бесплатный ремонт и замену крепежных элементов, фурнитуры или корпуса, вышедших из строя. Если поломка была вызвана неправильными действиями со стороны пользователя или покупателя, производитель также может провести ремонт или замену, но уже за плату.</span></p>
+                            </div>
+                            <div class="col-12  col-lg-6 d-flex align-items-center align-items-lg-end flex-column justify-content-lg-end ">
+                            </div>
+                            </div>
+                    </div>
+                </section>
+
+              
+
+                <!--VREMYA GARANTIE-->
+                <section class="my-20">
+                    <div class="container container_garantie">
+                <div class="row row-cols-xl-5 row-cols-lg-2 row-cols-1 gy-lg-20 gx-lg-0">
+                    <div class="col mb-lg-0 mb-n20">
+                        <div class="card bg-transparent rounded-circle border-3 text-center">
+                            <div class="ratio ratio-1x1">
+                                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                    <p class="fs-24 fs-md-30 fs-lg-40 fs-xl-30 fw-bolder mb-0 pt-3 pt-sm-6 pt-lg-10  text-primary">12</p>
+                                    <p class="text-black fs-02 fs-lg-12 fw-medium text-primary">месяцев</p>
+                                    <p class="text-secondary text-center fs-8 fs-lg-8 mt-5">на металлоконструкцию</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-lg-0 mb-n20">
+                        <div class="card bg-transparent rounded-circle border-3 text-center">
+                            <div class="ratio ratio-1x1">
+                                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                    <p class="fs-24 fs-md-30 fs-lg-40 fs-xl-30 fw-bolder mb-0 pt-3 pt-sm-6 pt-lg-10 text-primary">6</p>
+                                    <p class="text-black fs-02 fs-lg-12 fw-medium text-primary">месяцев</p>
+                                    <p class="text-secondary text-center fs-8 fs-lg-8 mt-5">на отделку</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-lg-0 mb-n20">
+                        <div class="card bg-transparent rounded-circle border-3 text-center">
+                            <div class="ratio ratio-1x1">
+                                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                    <p class="fs-24 fs-md-30 fs-lg-40 fs-xl-30 fw-bolder mb-0 pt-3 pt-sm-6 pt-lg-15 text-primary">6</p>
+                                    <p class="text-black fs-02 fs-lg-12 fw-medium text-primary">месяцев</p>
+                                    <p class="text-secondary text-center fs-8 fs-lg-8 mt-5">на импортную фурнитуру</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-lg-0 mb-n20">
+                        <div class="card bg-transparent rounded-circle border-3 text-center">
+                            <div class="ratio ratio-1x1">
+                                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                    <p class="fs-24 fs-md-30 fs-lg-40 fs-xl-30 fw-bolder mb-0 pt-3 pt-sm-6 pt-lg-15 text-primary">3</p>
+                                    <p class="text-black fs-02 fs-lg-12 fw-medium text-primary">месяца</p>
+                                    <p class="text-secondary text-center fs-8 fs-lg-8 mt-5">
+                                        на отечественную
+                                        фурнитуру</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-lg-0 mb-n20">
+                        <div class="card bg-transparent rounded-circle border-3 text-center">
+                            <div class="ratio ratio-1x1">
+                                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                    <p class="fs-24 fs-md-30 fs-lg-40 fs-xl-30 fw-bolder mb-0 pt-3 pt-sm-6 pt-lg-15 text-primary">3</p>
+                                    <p class="text-black fs-02 fs-lg-12 fw-medium text-primary">месяца</p>
+                                    <p class="text-secondary text-center fs-8 fs-lg-8 mt-5">на порошковое напыление</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="mt-30 bg-secondary">
+                </div>
+                </section>
+                
+
+                <!--POKUPKA-->
+
+                <section>
+                    <div class="container">
+                        <h1 class="pt-0  md-sm-0  fs-02  fs-md-15 fs-lg-20">Как заказать и установить<br>
+                            <sapn class="text-danger">входную металлическую дверь у нас?</sapn></h1>
+ 
+                               
+                                    <p class=" fs-7 fs-md-6 fs-lg-10 fs-xxl-13 fs-3xl-11">
+                                        Гарантийные условия включают следующие положения:</p>
+                                <ul class="mb-5 pt-5">
+                                    <li class="text-danger ps-0 mb-2 fs-7 fs-md-6 fs-lg-10 fs-xxl-13 fs-3xl-11">
+                                        бесплатное техническое обслуживание металлической двери,
+                                    </li>
+                                    <li class="ps-0 fs-7 fs-md-6 text-danger fs-lg-10 fs-xxl-13 fs-3xl-11">
+                                        замена или восстановление, если она стала непригодной для использования из-за дефектов, вызванных изготовителем.
+                                    </li>
+                                </ul>
+                                <p class=" fs-7 fs-md-6 fs-lg-10 fs-xxl-13 fs-3xl-11">
+                                    Гарантийные условия включают следующие положения:</p>
+                                    <p class=" pt-10 fs-7 fs-md-6 fs-lg-10 fs-xxl-13 fs-3xl-11"> Чтобы гарантия на металлическую дверь действовала, необходимо придерживаться правил эксплуатации такого типа конструкций.
+                                    Ключевыми требованиями к металлическим дверям являются следующие:</p>
+                    </div>
+                </section>
+
+
+
+                            <!--SOBSTVEN PROIZVODSTVO-->
+                            <section class="my-10">    
+                                <div class="container ">
+                                    
+                                    <div class="row  row-cols-2 row-cols-lg-5  gy-10 pt-lg-20">
+                                        <div class="col">
+                                            <div class="card w-100 h-100 border border-3 rounded-4">
+                                                <span class="border w-25 border-1 rounded-4 py-7 px-7 py-sm-10 px-sm-10  py-lg-10 px-lg-13 fs-lg-15  text-secondary">1</span>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                <p class="text-danger ls-lg ps-5 pe-5 ps-sm-10 pe-sm-10 text-center ps-0 pt-15 fs-7 fs-md-6 fs-lg-10 fs-xxl-13 fs-3xl-11">
+                                                    температура в помещении, где установлена дверь,
+                                                    не должна опускаться ниже +20С 
+                                                </p>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card w-100 h-100 border border-3 rounded-4">
+                                            <span class="border w-25 border-1 rounded-4 py-7 px-7 py-sm-10 px-sm-10  py-lg-10 px-lg-13 fs-lg-15  text-secondary">2</span>
+                                            <div class="d-flex  justify-content-center align-items-center">
+                                            <p class="pb-20 text-danger ls-lg ps-5 pe-5 ps-sm-10 pe-sm-10 text-center ps-0 pt-15 fs-7 fs-md-6 fs-lg-10 fs-xxl-13 fs-3xl-11">
+                                                наличие вентиляции (естественной или принудительной в случае естественной отсутствия)
+                                            </p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card w-100 h-100 border border-3 rounded-4">
+                                        <span class="border w-25 border-1 rounded-4 py-7 px-7 py-sm-10 px-sm-10  py-lg-10 px-lg-13 fs-lg-15  text-secondary">3</span>
+                                        <div class="d-flex  justify-content-center align-items-center">
+                                        <p class="pb-20 text-danger ls-lg ps-5 pe-5 ps-sm-10 pe-sm-10 text-center ps-0 pt-15 fs-7 fs-md-6 fs-lg-10 fs-xxl-13 fs-3xl-11">
+                                            соответствие вентиляционной системы требованиям СНиП 31.01.2003
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card w-100 h-100 border border-3 rounded-4">
+                                    <span class="border w-25 border-1 rounded-4 py-7 px-7 py-sm-10 px-sm-10  py-lg-10 px-lg-13 fs-lg-15 text-secondary">4</span>
+                                    <div class="d-flex  justify-content-center align-items-center">
+                                    <p class="pb-20 text-danger ls-lg ps-5 pe-5 ps-sm-10 pe-sm-10 text-center ps-0 pt-15 fs-7 fs-md-6 fs-lg-10 fs-xxl-13 fs-3xl-11">
+                                        обязательное наличие навеса или козырька над входной дверью для защиты от погодных условий и неблагоприятных факторов
+                                    </p>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-12 ">
+                                <div class="card w-100 h-100 border border-3 bordr border-4 rounded-4">
+                                <span class="border w-25 border-1 rounded-4 py-7 px-18 py-sm-10 px-sm-10  py-lg-10 px-lg-13 fs-lg-15 text-secondary">5</span>
+                                <div class="d-flex  justify-content-center align-items-center">
+                                <p class="pb-20 text-danger ls-lg ps-5 pe-5 ps-sm-10 pe-sm-10 text-center ps-0 pt-15 fs-7 fs-md-6 fs-lg-10 fs-xxl-13 fs-3xl-11">
+                                    соответствие
+                                    стен помещения требованиям по тепловой изоляции СНиП 23.03.2003
+                                </p>
+                            </div>
+                            </div>
+                        </div>
+                                    </div>
+                                    <hr class="mt-20 mt-lg-25 bg-secondary">
+                                </div>
+                            </section>
+
+                             
+                            
+                            
+                            <!--USLOVIYA-->
+
+                <section class="mt-20">
+                    <div class="container container_uslovia">
+                        <h1 class="pt-0  md-sm-0  fs-02  fs-md-15 fs-lg-20">При каких условиях гарантийные обязательства<br>
+                            <sapn class="text-danger">не применимы?</sapn></h1>
+                                <ul class="mb-5 ">
+                                    <li class=" ps-0 mb-2 fs-7 fs-md-6 fs-lg-10 fs-xxl-13 fs-3xl-11">
+                                        Внешние повреждения, которые не были указаны в Акте приема работ, но были обнаружены после установки отделочного материала уличных дверей.
+                                    </li>
+                                    <li class="ps-0 fs-7 fs-md-6  fs-lg-10 fs-xxl-13 fs-3xl-11">
+                                        Деформация полотна, которая вызвала изменение геометрии конструкции.
+                                    </li>
+                                    <li class=" ps-0 mb-2 fs-7 fs-md-6 fs-lg-10 fs-xxl-13 fs-3xl-11">
+                                        Поломка замка или другого механизма металлической двери вследствие проникновения насекомых, грязи, строительного мусора, пыли или посторонних предметов внутрь.
+                                    </li>
+                                    <li class="ps-0 fs-7 fs-md-6  fs-lg-10 fs-xxl-13 fs-3xl-11">
+                                        Механические повреждения дверей и отсутствие пломб на запорных механизмах.
+                                    </li>
+                                    <li class=" ps-0 mb-2 fs-7 fs-md-6 fs-lg-10 fs-xxl-13 fs-3xl-11">
+                                        Износ фурнитуры из-за интенсивного использования в помещениях с постоянным потоком посетителей.
+                                    </li>
+                                    <li class="ps-0 fs-7 fs-md-6  fs-lg-10 fs-xxl-13 fs-3xl-11">
+                                        Любые повреждения, включая ЧС, техногенные катастрофы или стихийные бедствия.
+                                    </li>
+                                    <li class=" ps-0 mb-2 fs-7 fs-md-6 fs-lg-10 fs-xxl-13 fs-3xl-11">
+                                        Запорные механизмы, установленные клиентом.
+                                    </li>
+                                    <li class="ps-0 fs-7 fs-md-6  fs-lg-10 fs-xxl-13 fs-3xl-11">
+                                        Взлом или умышленное повреждение корпуса и элементов металлической двери, включая акты вандализма, экстренное вскрытие сотрудниками МЧС, пользователем самостоятельно или третьими лицами.
+                                    </li>
+                                    <li class="ps-0 fs-7 fs-md-6  fs-lg-10 fs-xxl-13 fs-3xl-11"> 
+                                        Ремонт двери непрофессиональными мастерами.
+                                    </li>
+                                    <li class="ps-0 fs-7 fs-md-6  fs-lg-10 fs-xxl-13 fs-3xl-11"> 
+                                        Монтаж двери частными мастерами, заказчиком, его родственниками или другими сторонними лицами.
+                                    </li>
+                                    <li class="ps-0 fs-7 fs-md-6  fs-lg-10 fs-xxl-13 fs-3xl-11"> 
+                                        Поломка двери после истечения гарантийного срока.
+                                    </li>
+                                </ul>
+                                <p class=" fs-7 fs-md-6 fs-lg-10 fs-xxl-13 fs-3xl-11">
+                                    Производитель также не осуществляет замену, если оттенок или фактура отделки не соответствуют интерьеру.
+                                     Декоративная отделка может незначительно отличаться от той, которая представлена в каталоге из-за различий в цветопередаче на разных мониторах.</p>
+                    </div>
+                </section>
+
+
+
+                     <!--USLUGI-->
+
+                     <section class="mt-20 mb-10">
+                        <div class="container container_uslugi">
+                            <h1 class="pt-0  md-sm-0  fs-02  fs-md-15 fs-lg-20">Профессиональные услуги по ремонту металлических<br>
+                                входных дверей в Москве: <span class="text-danger">гарантия качества</span></h1>
+                                    <p class=" fs-7 fs-md-6 fs-lg-10 fs-xxl-13 fs-3xl-11">
+                                        Входные двери обеспечивают надежную защиту от нежелательного проникновения. Но несмотря на их прочность и надежность, иногда требуется их ремонт, чтобы сохранить хорошее состояние. Внешние элементы могут изнашиваться из-за перепадов температуры и ультрафиолетового излучения. Фурнитура может повреждаться из-за частого использования или нарушения геометрии. Замок или запорный механизм также могут быть повреждены. Изоляция или шумоизоляция двери также могут потребовать улучшения, но это не считается строгим ремонтом. Если исходные характеристики недостаточны, поверхность двери можно обшить МДФ или дерматином. Клиенты часто задают вопрос о самостоятельном или профессиональном ремонте. Рекомендуется выбрать последний вариант, так как наши специалисты могут справиться с широким спектром проблем. Мелкие ремонтные работы можно выполнить самостоятельно, но для более серьезных отделочных работ лучше обратиться к специалистам. Это особенно важно, если повреждение было вызвано взломом. В таких случаях могут быть повреждены не только фурнитура, но и само дверное полотно. Наши специалисты используют современные методики и высококачественные материалы для реставрации дверного полотна. Кроме того, каждая проблема требует индивидуального подхода, так как поломка может иметь разные характеристики. Чаще всего повреждаются петли, доводчик ригеля, замки и дверная коробка. Ремонт позволит решить все эти проблемы комплексно.</p>
+                        </div>
+                    </section>
+
+                
+
+                                  <!--CONSULTATION_2-->
+                                  <section class="mt-0 d-none d-md-flex mt-lg-30 bg_section_3">
+                                    <div class="container container_consultation">
+                                        <div class="row">
+                                            <div class="col-lg-7 py-20 py-lg-50">
+                                                <h2 class="mb-md-4 pb-xl-3 pb-xxl-1 pb-3xl-6 fs-12 fs-md-14 fs-lg-19 fs-xl-20 fs-xxl-22 fs-3xl-26">ОСТАЛИСЬ ВОПРОСЫ?<br>
+                                                    ПОЛУЧИТЕ <span class="red_color">БЕСПЛАТНУЮ</span> КОНСУЛЬТАЦИЮ
+                                                    ОТ НАШЕГО СПЕЦИАЛИСТА!</h2>
+                                                <div>
+                                                    <p class="mb-md-1 pb-10 pb-md-0 pb-xxl-1 pb-xl-4 pb-3xl-2 fs-7 fs-md-9 fs-lg-10 fs-xxl-13 fs-3xl-13 text-lg-muted">Оставьте заявку на бесплатную консультацию и наш специалист свяжется с вами в удобноее для вас время.
+                                                         Подберем нужную модель двери или решетки на окна, рассчитаем ориентировочную стоимость</p>
+                                            </div>
+                                            <div class="row row-cols-1 row-cols-md-2 row-cols-3xl-3 mt-5 mt-lg-20 gx-0 ">
+                                                <div class="col justify-content-center d-flex">
+                                                    <button class="card ps-0  red_button border-0" data-bs-toggle="modal" data-bs-target="#modal-consultation" type="button">
+                                                        <svg class="bg_red_button" width="305" height="91" viewBox="0 0 185 41" fill="currentColor">
+                                                        <path d="M185 20.6347V40.5H50.6842C46.1538 40.5003 41.6676 40.0136 37.482 39.0677C33.2963 38.1219 29.4931 36.7354 26.2895 34.9874L0 20.6422V0.5H134.183C138.751 0.501108 143.273 0.997229 147.487 1.95956C151.701 2.92189 155.522 4.33127 158.73 6.10593L185 20.6347Z" />
+                                                        </svg>
+                                                    <div class="card-img-overlay pt-8 pt-md-7 pt-lg-10 pt-xl-10 pt-xxl-10 pt-3xl-7">
+                                                        <p class="text-white fs-md-10  fs-lg-13">Получить<br> консультацию</p>
+                                                    </div>
+                                                    </button>
+                                                </div>
+                                                <div class="col justify-content-center d-flex">
+                                                    <button class="card pe-0 black_button border-0" data-bs-toggle="modal" data-bs-target="#modal-consultation" type="button">
+                                                        <svg class="bg_black_button" width="285" height="91" viewBox="0 0 185 41" fill="currentColor">
+                                                        <path d="M185 20.6347V40.5H50.6842C46.1538 40.5003 41.6676 40.0136 37.482 39.0677C33.2963 38.1219 29.4931 36.7354 26.2895 34.9874L0 20.6422V0.5H134.183C138.751 0.501108 143.273 0.997229 147.487 1.95956C151.701 2.92189 155.522 4.33127 158.73 6.10593L185 20.6347Z" />
+                                                        </svg>
+                                                    <div class="card-img-overlay pt-15 pt-md-14 pt-lg-20 pt-xl-20 pt-xx1-17 pt-3xl-16">
+                                                        <a class=" fs-md-10 fs-lg-13 text-white ls-sm text-decoration-none custom_font" href="tel:84953204097">8 (495) 320-40-97</a>
+                                                    </div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                            </div>
+                                        </div>
+                                     </div>
+                                    </section>
+            
+                    <!--MOBILE-CONSULTATION-->
+            <section class="mt-0 mt-lg-30 d-md-none">
+            <div class="container container_consultation bg-black">
+            <div class="card pe-0 black_button border-0" data-bs-toggle="modal" data-bs-target="#modal-consultation" type="button" data-interval="10000">
+            <img class="d-none d-md-inline-block w-100" src="svg/frame_6.svg" alt="">
+            <div class="card-img-overlay card-img-overlay_item pt-7 px-0 px-sm-5 pb-0 pe-md-0">
+             <div class="d-flex justify-content-between">
+                <h1 class="text-white mb-2 fs-12 fs-md-8 fs-lg-19 fs-xl-20 fs-xxl-22 fs-3xl-26">ОСТАЛИСЬ ВОПРОСЫ?<br>
+                    ПОЛУЧИТЕ <span class="red_color">БЕСПЛАТНУЮ</span> КОНСУЛЬТАЦИЮ
+                    <br>ОТ НАШЕГО СПЕЦИАЛИСТА!</h1>
+                    <img class="mt-10 mt-md-5 w-25 mb-20" src="svg/call.svg" alt="">
+             </div>
+                    <p class="mb-md-1 pb-10 pb-md-0 pb-xxl-1 pb-xl-4 pb-3xl-2 fs-7 fs-md-6 fs-lg-10 fs-xxl-13 fs-3xl-13 text-light">Оставьте заявку на бесплатную консультацию и наш специалист свяжется с вами в удобноее для вас время.
+                         Подберем нужную модель двери или решетки на окна, рассчитаем ориентировочную стоимость</p>
+                         <div class="row row-cols-2  gy-10 ">
+                            <div class="col">
+                                <input class="btn w-100 btn-white py-3 fs-7 fs-sm-10 mb-4" href="#" placeholder="Ваше имя*" type="text">
+                                <input class="btn w-100 btn-white py-3 fs-7 fs-sm-10 mb-5" href="#" placeholder="Номер телефона*" type="text">
+                            </div>
+                            <div class="col">
+               <button type="button" class="btn   btn-danger py-sm-10  w-100 ">Получить <br>консультацию</button>
+            </div>
+            
+            </div>
+            </div>
+            </div>
+            </div>
+            </section>
+            
+                             <!--FOOTER-->
+            <section class=" bg-black">
+                <div class="container container_footer">
+                    <div class="row ">
+                        <div class="col-lg-7 px-10 px-md-5 ">
+                            <div class="row py-10 py-lg-20 row-cols-2 border-bottom border-1 border-secondary">
+                            <div class="col-8 ">
+                                <div class="row align-items-center ">
+                                    <div class="col-auto ">
+                                        <div class="d-flex align-items-center">
+                                            <div class="d-flex ">
+                                            <a class="navbar-brand text-uppercase " href="index.html"><img class="img-fluid" src="svg/logo_blue.svg" alt="Стал Про"></a>
+                                            </div>
+                                            <small class="d-lg-flex  align-items-center fs-5 fs-md-7 ms-5 ps-5  ms-sm-10 ps-sm-10 text-white border-start  border-1 border-dark">Производство металлических <br>решеток в Московской области </small>
+                                        </div>
+                                    </div>
+                            </div>
+                           
+                        </div>
+                        <div class="col-4 d-flex align-items-center border-start-1 border-start-light">
+                            <p class="fs-6 fs-sm-10 flex-nowrap text-white">© 1999-2023</p>
+                        </div>
+                    </div>
+                <div class="d-md-none">
+                    <div class="row mt-5">
+                        <div class="col-7">
+                            <p class="fs-7 text-danger pt-3">E-mail:</p>
+                            <a class=" email fs-8  text-white" href="mailto:info@smarmatix.ru">
+                                info@stalpro.ru</a>
+                     
+                        <p class="text-danger fs-7 pt-5 pb-1">Адрес:</p>
+                        <p class="my-0 fs-7 text-white pt-3">141640, Московская область.,
+                        <br> Клинский р-он, д. Ясенево, д. 74, стр. 1</p>
+                        </div>
+                        <div class="col-5">
+                            <small class="fs-7 ls-sm ms-auto text-danger custom_font">Режим работы:
+                            </small>
+                            <span class="d-block fs-7 ls-sm text-uppercase mt-2 text-white custom_font">с <span class="red_color">9.00</span> до <span class="red_color">21.00</span></span>
+                            <div class="d-flex pt-32 justify-content-between">
+                                <img class="pe-md-20" src="svg/mobile_vk.svg" alt="">
+                                <img class="pe-md-20" src="svg/mobile_ok.svg" alt="">
+                                <img class="pe-md-20" src="svg/mobile_dzen.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center py-10 border-top border-bottom border-1 border-secondary mt-10">
+                    <button class="btn  btn-danger"><a class="fs-01 text-white ls-sm text-decoration-none " href="tel:84951270443"><img class="pe-3" src="svg/mobile_call2.svg" alt="">8 (495) 127-04-43</a></button>
+                    </div>
+                    <p class="red_color fs-7 pb-5 pt-10 text-uppercase">Каталог</p>
+                    <div class="row row-cols-lg-3 row-cols-2 gy-lg-20 gy-10 ">
+                        <div class="col p-2">
+                            <a class="d-lg-flex d-block align-items-lg-center h-100 border border-secondary bg-hover-white border-hover-white text-hover-black rounded-3 text-white text-decoration-none py-lg-10 px-lg-15 p-10" href="#">
+                                <h5 class="h6  fs-lg-10 fs-7 fw-medium  mb-0">Входные двери</h5><span class="badge fs-5 border border-primary rounded-pill text-secondary mt-lg-auto mt-8 mb-lg-4 ms-lg-auto py-2" style="min-width: 3rem;">201</span></a>
+                        </div>
+                        <div class="col p-2">
+                            <a class="d-lg-flex d-block align-items-lg-center h-100 border border-secondary bg-hover-white border-hover-white text-hover-black rounded-3 text-white text-decoration-none py-lg-10 px-lg-15 p-10" href="#">
+                                <h5 class="h6  fs-lg-10 fs-7 fw-medium  mb-0">Решетки на окна</h5><span class="badge fs-5 border border-primary rounded-pill text-secondary mt-lg-auto mt-8 mb-lg-4 ms-lg-auto py-2" style="min-width: 3rem;">178</span></a>
+                        </div>
+                        <div class="col d-lg-block d-none">
+                            <btn class="btn btn-secondary btn-xxl w-100" data-bs-toggle="modal" data-bs-target="#modal-consultation" type="button">Консультация</btn>
+                        </div>
+                    </div>
+                    <div class=" pt-5">
+                        <p class="fs-7 red_color pb-5 text-uppercase">Реквизиты</p>
+                        <p class="fs-7 text-white pb-5">ИНН:___________</p>
+                        <p class="fs-7 text-white pb-5">ОГРН:__________</p>
+                    </div>
+                    <div class="d-flex justify-content-between pt-5">
+                        <img  src="svg/alpha.svg" alt="alpha">
+                        <img  src="svg/sber.svg" alt="sber">
+                        <img  src="svg/qivi.svg" alt="qivi">
+                        <img  src="svg/visa.svg" alt="visa">
+                        <img  src="svg/mastercard.svg" alt="mastercard">
+                    </div>
+                    <div class="text-center pt-5">
+                        <a class="text-muted fs-8" href="">Политика конфиденциальности</a>
+                        <br><a class="text-muted fs-8" href="">Информация об аферте</a>
+                        <br><a class="text-muted fs-8" href="">Карта сайта</a>
+                    </div>
+                </div>
+            
+                    <div class="row mt-0 mt-lg-20 d-none d-md-flex">
+                        <div class="col-12 col-sm-12 col-md-6 order-1 order-lg-0">
+                            <div class="col-auto d-lg-block d-none">
+                                <div class="d-lg-block pb-10 d-none">
+                                    <small class="fs-12 text-uppercase ls-sm ms-auto text-white">График работы:</small>
+                                    <span class="d-block fs-12 ls-sm text-uppercase mt-2 text-white">с <span class="red_color">9.00</span> до <span class="red_color">21.00</span></span></div>
+                                   
+                            </div>
+                            <a class="text-muted fs-8" href="">Политика конфиденциальности</a>
+                            <br><a class="text-muted fs-8" href="">Информация об аферте</a>
+                            <br><a class="text-muted fs-8" href="">Карта сайта</a>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 order-0 order-lg-1">
+                            <div class="row pb-10 pb-lg-20">
+                        <div class="col-6 col-sm-6 col-md-6 pt-10 pt-md-0">
+                            <p class="red_color pb-10">Каталог</p>
+                           <p class="pb-5"><a class="text-white fs-8 " href="">Входные двери</a></p>
+                           <p class="pb-5"><a class="text-white fs-8 " href="">Решетки на окна</a></p>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-6 pt-10 pt-md-0">
+                            <p class="red_color pb-10">Реквизиты</p>
+                            <p class="text-white pb-5">ИНН:___________</p>
+                            <p class="text-white pb-5">ОГРН:__________</p>
+                        </div>
+                        <div class="d-flex justify-content-between pt-10">
+                            <img src="svg/alpha.svg" alt="alpha">
+                            <img src="svg/sber.svg" alt="sber">
+                            <img src="svg/qivi.svg" alt="qivi">
+                            <img src="svg/visa.svg" alt="visa">
+                            <img src="svg/mastercard.svg" alt="mastercard">
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                      </div>
+                        <div class="col-lg-5 bg_red mt-10 mt-lg-0 pt-20 d-flex justify-content-center d-none d-md-flex">
+                            <div>
+                            <a class="fs-03 text-white ls-sm text-decoration-none custom_font text-center" href="tel:84951270443">8 (495) 127-04-43</a>
+                            <div class="d-flex pt-10 pb-10">
+                                <img class="pe-5" src="svg/footer_call.svg" alt="">
+                                <button class="card pe-0 black_button border-0" data-bs-toggle="modal" data-bs-target="#modal-consultation" type="button">
+                                    <svg class="bg_black_button" width="185" height="41" viewBox="0 0 185 41" fill="currentColor">
+                                    <path d="M185 20.6347V40.5H50.6842C46.1538 40.5003 41.6676 40.0136 37.482 39.0677C33.2963 38.1219 29.4931 36.7354 26.2895 34.9874L0 20.6422V0.5H134.183C138.751 0.501108 143.273 0.997229 147.487 1.95956C151.701 2.92189 155.522 4.33127 158.73 6.10593L185 20.6347Z" />
+                                    </svg>
+                                <div class="card-img-overlay pt-6 px-0">
+                                    <p class="text-white ms-25 ms-sm-0 fs-sm-8 fs-md-8 fs-lg-12 fs-xl-10  fs-3xl-8">Заказ звонка</p>
+                                </div>
+                                </button>
+                            </div>
+                            <p class="  fs-8 text-white">E-mail:</p>
+                            <a class="email fs-8  text-white" href="mailto:info@smarmatix.ru">
+                                info@stalpro.ru</a>
+                     <p class="text-white my-0 fs-8   pt-10">
+                        Адрес:<br>
+                        141640, Московская область.,
+                        <br> Клинский р-он, д. Ясенево, д. 74, стр. 1</p>
+                        <div class="d-flex pt-12 justify-content-between">
+                            <img class="pe-md-20" src="svg/vk.svg" alt="">
+                            <img class="pe-md-20" src="svg/dzen.svg" alt="">
+                            <img class="pe-md-20" src="svg/ok.svg" alt="">
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+               
+             </section>
+            
+            
+              
+            
+            <script src="js/bootstrap.bundle.min.js">
+            </script>
+            <script src="vendors/swiper/swiper-bundle.min.js">
+            </script>
+            <script src="vendors/fslightbox/index.js"></script>
+            <script src="vendors/wNumb/wNumb.min.js"></script>
+            <script src="vendors/nouislider/nouislider.min.js"></script>
+            <script src="js/main.js"></script>
+            <script src="js/script.js"></script>
+            </body>
+            </html>

@@ -13,7 +13,7 @@
     --bs-indigo: #6610f2;
     --bs-purple: #6f42c1;
     --bs-pink: #d63384;
-    --bs-red: #dc3545;
+    --bs-red: #E10148;
     --bs-orange: #fd7e14;
     --bs-yellow: #ffc107;
     --bs-green: #198754;
@@ -45,7 +45,7 @@
     --bs-primary-rgb: 245, 50, 14;
     --bs-secondary-rgb: 149, 149, 149;
     --bs-success-rgb: 78, 232, 53;
-    --bs-danger-rgb: 225, 33, 54;
+    --bs-danger-rgb: 225, 1, 72;
     --bs-warning-rgb: 255, 172, 4;
     --bs-info-rgb: 81, 229, 255;
     --bs-light-rgb: 224, 224, 224;
@@ -57,7 +57,7 @@
     --bs-success-text: #146c43;
     --bs-info-text: #087990;
     --bs-warning-text: #997404;
-    --bs-danger-text: #b02a37;
+    --bs-danger-text: #E10148;
     --bs-light-text: #7a7a7a;
     --bs-dark-text: #616161;
     --bs-primary-bg-subtle: #cfe2ff;
@@ -10100,7 +10100,7 @@ fieldset:disabled .btn {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 15%;
+    width: 10%;
     padding: 0;
     color: #fff;
     text-align: center;
