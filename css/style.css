@@ -21,10 +21,10 @@
   src: url("../fonts/inter/Inter-Light.otf") format("OpenType"), url("../fonts/inter/Inter-Light.ttf") format("truetype");
   font-weight: 300;
 }
-/* body {
-    background-color: rgb(68, 68, 68);
-} 
- */
+body {
+  background-color: rgb(68, 68, 68);
+}
+
 :root {
   --custom-red: #E10148;
 }
@@ -454,6 +454,14 @@ header {
   height: 105px;
   width: 475px;
 }
+.container_consultation .bg_red_button {
+  width: 327px;
+  height: 90px;
+}
+.container_consultation .bg_black_button {
+  width: 327px;
+  height: 90px;
+}
 
 .bg_section_4 {
   background-image: url("../img/background_4.png");
@@ -725,6 +733,14 @@ header {
     width: 371px;
     height: 76px;
   }
+  .container_consultation .bg_red_button {
+    width: 250px;
+    height: 90px;
+  }
+  .container_consultation .bg_black_button {
+    width: 250px;
+    height: 90px;
+  }
   .container_technicheskie .mt-xl-10 {
     width: 35%;
   }
@@ -976,6 +992,14 @@ header {
   .container_consultation .input_item {
     width: 300px;
     height: 71px;
+  }
+  .container_consultation .bg_red_button {
+    width: 220px;
+    height: 90px;
+  }
+  .container_consultation .bg_black_button {
+    width: 220px;
+    height: 90px;
   }
   .container_technicheskie .mb-10 {
     max-width: 35%;
