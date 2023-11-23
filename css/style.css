@@ -21,10 +21,9 @@
   src: url("../fonts/inter/Inter-Light.otf") format("OpenType"), url("../fonts/inter/Inter-Light.ttf") format("truetype");
   font-weight: 300;
 }
-body {
-  background-color: rgb(68, 68, 68);
-}
-
+/* body {
+    background-color: rgb(68, 68, 68);
+}  */
 :root {
   --custom-red: #E10148;
   --custom-light-red: #e45381;
