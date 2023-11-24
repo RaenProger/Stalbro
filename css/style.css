@@ -1905,16 +1905,16 @@ header {
     margin-top: -50px;
   }
   .container_vhodnie .prev {
-    margin-left: -40px;
+    margin-left: -20px;
   }
   .container_vhodnie .next {
-    margin-right: -40px;
+    margin-right: -20px;
   }
   .prev {
-    margin-left: -30px;
+    margin-left: -10px;
   }
   .next {
-    margin-right: -30px;
+    margin-right: -10px;
   }
   .container_metal .heart_item {
     width: 20px;
@@ -1992,10 +1992,10 @@ header {
     margin-left: 11% !important;
   }
   .container_catalog .container_collelcii .carousel-control-prev {
-    left: -20px;
+    left: -10px;
   }
   .container_catalog .container_collelcii .carousel-control-next {
-    right: -20px;
+    right: -10px;
   }
   .container_catalog .container_collelcii .prev {
     margin-left: -1px;
@@ -2130,10 +2130,10 @@ header {
     width: 45%;
   }
   .container_otzivi .prev {
-    margin-left: -20px;
+    margin-left: -10px;
   }
   .container_otzivi .next {
-    margin-right: -20px;
+    margin-right: -10px;
   }
   .bg_section_3 {
     background-image: none;
