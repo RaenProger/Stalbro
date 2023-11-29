@@ -27,6 +27,7 @@
 :root {
   --custom-red: #E10148;
   --custom-light-red: #e45381;
+  --custom-yellow: #ffd602;
 }
 
 .red_color {
@@ -43,6 +44,10 @@
 
 .bg_red {
   background-color: var(--custom-red);
+}
+
+.yellow_color {
+  background-color: var(--custom-yellow);
 }
 
 .bg_frame_color {
