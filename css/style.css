@@ -683,6 +683,12 @@ header {
   background-size: cover;
 }
 
+.bg_section_19 {
+  background-image: url("../img/background_19.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .ellipse_center {
   margin-top: -45%;
 }
