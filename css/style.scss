@@ -859,11 +859,27 @@ box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
                     text-indent: 0px !important;
                     text-align: start !important;
                     text-align-last: start !important;
-                    color: #F5320E;
+                    color: white;
                     border: 3px solid green;
                 }
+
+
+                
                     }
                
+
+                    .container_baners_akcii_2{
+            
+                        /*MARKER*/
+                        ::marker {
+                    
+                            color: var(--custom-red) !important;
+                            
+                        }
+        
+        
+                        
+                            }
 
 
 

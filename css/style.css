@@ -651,8 +651,15 @@ header {
   text-align: start !important;
   -moz-text-align-last: start !important;
        text-align-last: start !important;
-  color: #F5320E;
+  color: white;
   border: 3px solid green;
+}
+
+.container_baners_akcii_2 {
+  /*MARKER*/
+}
+.container_baners_akcii_2 ::marker {
+  color: var(--custom-red) !important;
 }
 
 .bg_section_16 {
